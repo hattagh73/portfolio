@@ -1,34 +1,78 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- START Project Title -->
+## 📓 Project Title
+Personal Portfolio
+<!-- END Project Title -->
 
-## Getting Started
+<!-- START Table Of Contents -->
+## 📌 Table Of Contents
+Here is the table of contents of our project. You may use it to explore the whole project. 🛴💨
 
-First, run the development server:
+- [Project Title](#-project-title)
+- [ToC](#-table-of-contents)
+- [About Project](#-about-project)
+- [Technology Stack](#-technology-stack)
+- [References](#-references)
+- [Screenshots](#-screenshots)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<p align="right"><a href="#-project-title">🔼</a></p>
+<!-- END Table Of Contents -->
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!-- START About Project -->
+## 📢 About Project
+In this project, we're creating a landing page of our portfolio.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+What we have done in the recent times:
+* [x] Design a **home page** in Figma.
+* [x] Design a **project details** page in Figma.
+* [x] Translate **home page design** into code.
+* [ ] Translate **project details page** design into code.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<p align="right"><a href="#-project-title">🔼</a></p>
+<!-- END About Project -->
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<!-- START Technology Stack -->
+## 🚀 Technology Stack
+A list of **technology stack** that we applied in this project. There are as listed below:
 
-## Learn More
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,javascript" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=nextjs,sass" />
+  </a>
+</p>
+<p align="left">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=figma,vscode" />
+  </a>
+</p>
 
-To learn more about Next.js, take a look at the following resources:
+<p align="right"><a href="#-project-title">🔼</a></p>
+<!-- END Technology Stack -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<!-- START References -->
+## 🔎 References
+This is a list of references that we found quite helpful in the contribution to this project.
+1. Background image used: [Unsplash](https://unsplash.com/s/photos/canyon)
+   
+2. Tailwind main documentation: [Documentation](https://tailwindcss.com/docs/installation)
+    
+3. Color Gradients: [Color Gradients](https://uigradients.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<p align="right"><a href="#-project-title">🔼</a></p>
+<!-- END References -->
 
-## Deploy on Vercel
+<!-- START Screenshots -->
+## 📸 Screenshots
+Here are some of the screenshot outputs of the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<img width="580" alt="Image results" src="https://user-images.githubusercontent.com/92319348/198091508-aa480db3-309b-465c-9e11-0e6ac4d9b420.png">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<p align="right"><a href="#-project-title">🔼</a></p>
+<!-- END Screenshots -->
+
+
+
