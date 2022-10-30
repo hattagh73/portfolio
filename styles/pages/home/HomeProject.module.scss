@@ -1,0 +1,89 @@
+@use '../../abstracts/abstracts' as a;
+
+.pj_section {
+    padding: 7rem 0 7rem;
+}
+
+.main_title {
+    font-size: 20px;
+    font-weight: 400;
+    color: map-get(a.$theme-pixelzpf, clr-text-active);
+    text-align: start;
+    span {
+        color: map-get(a.$theme-pixelzpf, clr-text-red);
+    }
+
+    @include a.md {
+        text-align: center;
+    }
+}
+
+.main_desc {
+    font-size: 26px;
+    font-weight: 500;
+    color: map-get(a.$theme-pixelzpf, clr-text-active);
+    text-align: start;
+    margin-top: 16px;
+
+    @include a.md {
+        text-align: center;
+    }
+}
+
+.swiper {
+    margin-top: 16px;
+    width: 100%;
+    padding: 0 0 2rem;
+}
+
+.card {
+    // background: map-get(a.$theme-pixelzpf, clr-text-red);
+    
+
+    p {
+        font-size: 12px;
+        font-weight: 400;
+        color: map-get(a.$theme-pixelzpf, clr-text-deactive);
+        text-align: center;
+        margin-top: 2px;
+    }
+
+    .card_title {
+        position: relative;
+        overflow: hidden;
+        background: map-get(a.$theme-pixelzpf, clr-secondary);
+        height: 160px;
+        padding: 0 23px;
+        text-align: center;
+        border-radius: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3 {
+            font-size: 15px;
+            font-weight: 500;
+            color: map-get(a.$theme-pixelzpf, clr-text-active);
+        }
+
+    }
+
+    .circle {
+        position: absolute;
+        background: map-get(a.$theme-pixelzpf, clr-text-red);
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+    .c_tl {
+        top: -32px;
+        left: -37px;
+    }
+
+    .c_br {
+        bottom: -32px;
+        right: -37px;
+    }
+}

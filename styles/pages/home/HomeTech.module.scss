@@ -1,0 +1,142 @@
+@use '../../abstracts/abstracts' as a;
+
+.tech_section {
+    padding: 7rem 0 7rem;
+}
+
+
+.tech_grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 23px;
+
+    @include a.md {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 4rem;
+    }
+}
+
+.tech_col1 {
+    text-align: start;
+
+    @include a.md {
+        text-align: start;
+    }
+
+    .title {
+        font-size: 20px;
+        font-weight: 400;
+        color: map-get(a.$theme-pixelzpf, clr-text-active);
+        span {
+            color: map-get(a.$theme-pixelzpf, clr-text-red);
+        }
+
+        @include a.md {
+            margin-top: 24px;
+        }
+    }
+
+    p {
+        margin-top: 16px;
+        color: map-get(a.$theme-pixelzpf, clr-text-active);
+        font-size: 26px;
+        font-weight: 500;
+
+        @include a.md {
+            font-size: 36px;
+            max-width: 85%;
+        }
+    }
+}
+
+.tech_col2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    // grid-template-rows: repeat(2, 130px);
+    gap: 4px;
+
+    @include a.md {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.card {
+    background: #fff;
+    padding: 18px 10px;
+    position: relative;
+}
+
+.card,
+.img_mesh,
+.img_noise {
+    border-radius: 4px;
+}
+
+.img_mesh {
+    z-index: 1;
+}
+
+.img_noise {
+    z-index: 2;
+    opacity: 0.2;
+}
+
+.card:nth-of-type(2) {
+    @include a.md {
+        grid-column: span 2;
+    }
+    
+}
+
+.card:nth-of-type(3) {
+    @include a.md {
+        grid-column: span 2;
+    }
+}
+
+.card_content {
+    position: relative;
+    z-index: 5;
+    cursor: default;
+
+    h1 {
+        color: map-get(a.$theme-pixelzpf, clr-primary);
+        font-weight: 600;
+        font-size: 16px;
+
+        @include a.md {
+            font-size: 18px;
+        }
+    }
+
+    ul {
+        margin-top: 24px;
+        color: map-get(a.$theme-pixelzpf, clr-primary);
+        font-size: 14px;
+        font-weight: 500;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        row-gap: 5px;
+        column-gap: 8px;
+        max-width: 90%;
+
+
+
+        @include a.md {
+            font-size: 14px;
+        }
+    }
+
+    li {
+        background: hsla(0, 0%, 100%, 0.3);
+        padding: 3px 4px;
+        border-radius: 6px;
+        // backdrop-filter: blur(6px);
+    }
+}
+
+
+
+

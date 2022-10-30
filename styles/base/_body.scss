@@ -1,0 +1,7 @@
+@use '../abstracts/abstracts' as a;
+
+body {
+    font-family: a.$ff-poppins;
+    background-color: map-get(a.$theme-pixelzpf, clr-primary);
+    color: map-get(a.$theme-pixelzpf, clr-text-active);
+}

@@ -1,0 +1,14 @@
+@use '../abstracts/abstracts' as a;
+
+.container {
+    max-width: 990px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+@include a.lg  {
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

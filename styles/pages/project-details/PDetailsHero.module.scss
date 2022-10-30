@@ -1,0 +1,23 @@
+.pj_details_hero {
+    position: relative;
+    min-height: 60vh;
+}
+
+.img_hero {
+    // max-width: 1600px;
+    // height: 60vh;
+}
+
+.contents_overlay {
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    // border: solid 1px white;
+    word-wrap: break-word;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
