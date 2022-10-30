@@ -69,7 +69,9 @@ This is a list of references that we found quite helpful in the contribution to 
 ## 📸 Screenshots
 Here are some of the screenshot outputs of the project.
 
-<img width="580" alt="Image results" src="https://user-images.githubusercontent.com/92319348/198091508-aa480db3-309b-465c-9e11-0e6ac4d9b420.png">
+<div align="left">
+  <img width="300" alt="Personal-Portfolio-Detail-Page" src="https://user-images.githubusercontent.com/92319348/198881969-b5daec2b-8cb9-48cb-9709-b5755a735e09.png">
+</div>
 
 <p align="right"><a href="#-project-title">🔼</a></p>
 <!-- END Screenshots -->
