@@ -37,8 +37,18 @@
 }
 
 .card {
-    // background: map-get(a.$theme-pixelzpf, clr-text-red);
-    
+
+    cursor: pointer;
+
+    &:hover {
+        .card_title {
+            border: solid 1px map-get(a.$theme-pixelzpf, clr-text-red);
+        }
+
+        p {
+            text-decoration: underline;
+        }
+    }
 
     p {
         font-size: 12px;
@@ -59,6 +69,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border: solid 1px transparent;
+        transition: .4s ease;
 
         h3 {
             font-size: 15px;
