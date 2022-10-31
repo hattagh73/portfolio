@@ -1,11 +1,8 @@
+@use '../../abstracts/abstracts' as a;
+
 .pj_details_hero {
     position: relative;
     min-height: 60vh;
-}
-
-.img_hero {
-    // max-width: 1600px;
-    // height: 60vh;
 }
 
 .contents_overlay {
@@ -19,5 +16,24 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+
+    p {
+        font-family: a.$ff-lobster;
+        color: map-get(a.$theme-pixelzpf, clr-text-red);
+        font-size: 22px;
+
+        @include a.md {
+            font-size: 26px;
+        }
+    }
+
+    h1 {
+        font-size: 26px;
+        font-weight: 500;
+
+        @include a.md {
+            font-size: 34px;
+        }
+    }
 }
 
