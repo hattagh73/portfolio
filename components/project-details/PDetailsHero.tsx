@@ -1,10 +1,14 @@
-//* Import NextJS TS & Features */
+//* Import NextJS TS & Features *//
 import Image from 'next/image';
 
-//* Import Project Details Page SCSS */
+//* Import Types *//
+import { iPropProjectDetails } from '../../types';
+
+//* Import Project Details Page SCSS *//
 import s from '../../styles/pages/project-details/PDetailsHero.module.scss';
 
-const PDetailsHero = () => {
+
+const PDetailsHero = ({p_pro_details}:iPropProjectDetails) => {
 
     return (
         <section className={s.pj_details_hero}>
@@ -18,10 +22,8 @@ const PDetailsHero = () => {
             />
             
             <div className={`${s.contents_overlay} container`}>
-                <h1>
-                    Project Title
-                </h1>
-                <p>sub title</p>
+                <p>{p_pro_details.p_category}</p>
+                <h1>{p_pro_details.p_name}</h1>
             </div>
 
         </section>
