@@ -1,7 +1,7 @@
 [
     {
         "p_id": 1,
-        "p_name": "Complaint System",
+        "p_name": "Complaint System For University Hostel",
         "p_category": "Final Year Project",
         "p_about":[
             "A Two-way communication system between student and admin",
