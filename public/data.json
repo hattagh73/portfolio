@@ -1,0 +1,50 @@
+[
+    {
+        "p_id": 1,
+        "p_name": "Complaint System",
+        "p_category": "Final Year Project",
+        "p_about":[
+            "A Two-way communication system between student and admin",
+            "Aid students in submitting complaint form via online",
+            "Aid admin to receive, monitor and update complaints"
+        ]
+    },
+    {
+        "p_id": 2,
+        "p_name": "Robotic Events",
+        "p_category": "Internship",
+        "p_about":[
+            "Participated and organized robotic events in several locations",
+            "To promote the company's products and services to client regarding STEM class"
+        ]
+        
+    },
+    {
+        "p_id": 3,
+        "p_name": "AOneSchools System",
+        "p_category": "Internship",
+        "p_about":[
+            "Explored and managed AOneSchools System which wll be implemented on the company",
+            "Taught employees on using the attendance, registration, fee system and etc"
+        ]
+    },
+    {
+        "p_id": 4,
+        "p_name": "Personal Portfolio",
+        "p_category": "Landing Page",
+        "p_about":[
+            "To display basic of personal informations",
+            "To display several projects"
+        ]
+    },
+    {
+        "p_id": 5,
+        "p_name": "First Client Project",
+        "p_category": "Landing Page",
+        "p_about":[
+            "Collected basic requirements from client",
+            "To design a landing page in Figma",
+            "To create a landing page which related to food products"
+        ]
+    }
+]
