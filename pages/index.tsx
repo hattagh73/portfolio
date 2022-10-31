@@ -1,28 +1,44 @@
-//* Import NextJS TS
+//* Import NextJS TS & Features *//
 import type { NextPage } from 'next';
-
-//* Import NextJS Features
+import { GetServerSideProps } from 'next'
 import Head from 'next/head';
 
-//* Import Home Components
+//* Import Home Components *//
 import { HomeHero, HomeTech, HomeProject } from '../components/index';
 
-//* Import Home Page SCSS
+//* Import Types *//
+import { iProjects } from '../types';
+
+//* Import Home Page SCSS *//
 import s from '../styles/pages/home/HomeParent.module.scss';
 
-const Home: NextPage = () => {
+const Home: NextPage<{ projects: iProjects[] }> = ({ projects }) => {
+    
     return (
         <>
             <Head>
-                {/* <title>Hatta Limited</title> */}
+                <title>Hatta Limited</title>
             </Head>
             
             <main>
                 <HomeHero />
                 <HomeTech />
-                <HomeProject />
+                <HomeProject p_projects={projects}/>
             </main>
         </>
     )
 }
 export default Home;
+
+export const getServerSideProps: GetServerSideProps = async () => {
+
+    const response = await fetch(`http://localhost:3000/data.json`);
+    const results:iProjects[] = await response.json();
+    
+    return {
+        props: {
+            projects: results
+        }
+    }
+
+}
