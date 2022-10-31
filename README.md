@@ -23,9 +23,9 @@ In this project, we're creating a landing page about our personal portfolio.
 What we have done in the recent times:
 * [x] Design a **home page** in Figma.
 * [x] Design a **project details** page in Figma.
-* [x] Translate **home page design** into code.
-* [ ] Translate **project details page** design into code.
-* [x] Link **home page** together with **project details page**.
+* [x] Translate a **home page design** into codes.
+* [ ] Translate a **project details page** design into codes.
+* [x] Link project list in **home page** to **project details page**. To be able to see the project details.
 
 <p align="right"><a href="#-project-title">🔼</a></p>
 <!-- END About Project -->
