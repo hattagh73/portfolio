@@ -40,12 +40,19 @@
 }
 
 .desc_item {
+    cursor: default;
     font-size: 18px;
     font-weight: 400;
     color: map-get(a.$theme-pixelzpf, clr-text-deactive);
     background: map-get(a.$theme-pixelzpf, clr-secondary);
     padding: 6px 8px;
     border-radius: 5px;
+    border: solid 1px transparent;
+    transition: .4s ease;
+
+    &:hover {
+        border: solid 1px map-get(a.$theme-pixelzpf, clr-text-red);
+    }
 }
 
 .about_col2 {
