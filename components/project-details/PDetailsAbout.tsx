@@ -1,23 +1,28 @@
-//* Import NextJS TS & Features
+//* Import NextJS TS & Features *//
 import Image from 'next/image';
 
-//* Import Project Details Page SCSS
+//* Import Types *//
+import { iPropProjectDetails } from '../../types';
+
+//* Import Project Details Page SCSS *//
 import s from '../../styles/pages/project-details/PDetailsAbout.module.scss';
 
-const PDetailsAbout = () => {
+const PDetailsAbout = ({p_pro_details}:iPropProjectDetails) => {
     
     return (
         <section className={s.about_section}>
 
             <div className={`${s.about_grid} container`}>
+
                 <div className={s.about_col1}>
                     <h2 className={s.about_title}>About Project</h2>
                     <ul className={s.desc_wrap}>
-                        <li className={s.desc_item}>Description 1</li>
-                        <li className={s.desc_item}>Description 2</li>
-                        <li className={s.desc_item}>Description 3</li>
+                        {   p_pro_details && p_pro_details.p_about?.map((i, index)=>
+                            <li className={s.desc_item} key={index}>{i}</li>
+                        )}
                     </ul>
                 </div>
+
                 <div className={s.about_col2}>
                     <div className={s.circle}>
                         <Image 
@@ -28,6 +33,7 @@ const PDetailsAbout = () => {
                         />
                     </div>
                 </div>
+                
             </div>
 
         </section>
