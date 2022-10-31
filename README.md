@@ -1,6 +1,6 @@
 <!-- START Project Title -->
 ## 📓 Project Title
-Personal Portfolio
+Create A Landing Page About Personal Portfolio
 <!-- END Project Title -->
 
 <!-- START Table Of Contents -->
@@ -11,7 +11,6 @@ Here is the table of contents of our project. You may use it to explore the whol
 - [ToC](#-table-of-contents)
 - [About Project](#-about-project)
 - [Technology Stack](#-technology-stack)
-- [References](#-references)
 - [Screenshots](#-screenshots)
 
 <p align="right"><a href="#-project-title">🔼</a></p>
@@ -19,13 +18,14 @@ Here is the table of contents of our project. You may use it to explore the whol
 
 <!-- START About Project -->
 ## 📢 About Project
-In this project, we're creating a landing page of our portfolio.
+In this project, we're creating a landing page about our personal portfolio.
 
 What we have done in the recent times:
 * [x] Design a **home page** in Figma.
 * [x] Design a **project details** page in Figma.
 * [x] Translate **home page design** into code.
 * [ ] Translate **project details page** design into code.
+* [x] Link **home page** together with **project details page**.
 
 <p align="right"><a href="#-project-title">🔼</a></p>
 <!-- END About Project -->
@@ -52,18 +52,6 @@ A list of **technology stack** that we applied in this project. There are as lis
 
 <p align="right"><a href="#-project-title">🔼</a></p>
 <!-- END Technology Stack -->
-
-<!-- START References -->
-## 🔎 References
-This is a list of references that we found quite helpful in the contribution to this project.
-1. Background image used: [Unsplash](https://unsplash.com/s/photos/canyon)
-   
-2. Tailwind main documentation: [Documentation](https://tailwindcss.com/docs/installation)
-    
-3. Color Gradients: [Color Gradients](https://uigradients.com/)
-
-<p align="right"><a href="#-project-title">🔼</a></p>
-<!-- END References -->
 
 <!-- START Screenshots -->
 ## 📸 Screenshots
