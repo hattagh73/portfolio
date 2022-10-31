@@ -1,14 +1,10 @@
-//* Import NextJS TS
+//* Import NextJS/React TS/Features 
 import type { AppProps } from 'next/app';
-
-//* Import NextJS Features
 import Head from 'next/head';
+import { useEffect } from 'react';
 
 //* Import Components
 import LandingPageLayout from '../components/LandingPageLayout';
-
-//* Import React Features
-import { useEffect } from 'react';
 
 //* Import Global SCSS
 import '../styles/global.scss';
@@ -21,9 +17,9 @@ function MyApp({ Component, pageProps}: AppProps) {
 
     return (
         <>
-            <Head>
-                <title>Hatta Limited</title>
-            </Head>
+            {/* <Head>
+                
+            </Head> */}
             <LandingPageLayout>
                 <Component {...pageProps} />
             </LandingPageLayout>
