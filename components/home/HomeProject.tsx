@@ -31,7 +31,7 @@ const HomeProject = ({ p_projects }:iPropProjects) => {
                 <Swiper
                     className={s.swiper}
                     modules={[Pagination]}
-                    pagination
+                    pagination={{ clickable: true }}
                     slidesPerView={1}
                     spaceBetween={10}
                     // centeredSlides={true}
@@ -50,22 +50,27 @@ const HomeProject = ({ p_projects }:iPropProjects) => {
                     
                 >
                    {    p_projects.map((p, index) =>
+                        
                         <SwiperSlide key={p.p_id} className={s.slide}>
                             <Link href={`/project/${p.p_id}`}>
                                 <div className={s.card}>
+                                    
                                     <div className={s.card_title}>
                                         <h3>{p.p_name}</h3>
+
+                                        {/* Circle Shape */}
                                         <div 
                                             className={`${s.circle} ${ index % 2 === 0 ? `${s.c_tl}` : `${s.c_br}` }`}
                                         >
-                                            
                                         </div>
                                     </div>
+
                                     <p>{p.p_category}</p>
                                     
                                 </div>
                             </Link>
                         </SwiperSlide>
+                        
                     )}
                 </Swiper>
             )}
