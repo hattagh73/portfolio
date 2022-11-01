@@ -7,18 +7,19 @@ import Head from 'next/head';
 import { iProjects } from '../../types';
 
 //* Import Project Details Components *//
-import { PDetailsHero, PDetailsAbout } from '../../components';
+import { PDetailsHero, PDetailsAbout, PDetailsStack } from '../../components';
 
 const Project: NextPage<{ project: iProjects }> = ({project}) => {
-    // console.log(project[0].p_name)
+    
     return (
         <>
             <Head>
-                <title>Project Details</title>
+                <title>{`P${project.p_id} | ${project.p_name} 📌`}</title>
             </Head>
             <main>
                 <PDetailsHero p_pro_details={project}/>
                 <PDetailsAbout p_pro_details={project} />
+                <PDetailsStack p_pro_details={project} />
             </main>
         </>
     )
@@ -33,7 +34,6 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     
     const result = results.find(r => r.p_id === pID);
 
-   console.log(result)
     return {
         props: {
             project: result
