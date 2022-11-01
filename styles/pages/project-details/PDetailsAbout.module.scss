@@ -26,6 +26,11 @@
 .about_title {
     font-size: 28px;
     font-weight: 400;
+    text-align: center;
+
+    @include a.md {
+        text-align: start;
+    }
 }
 
 .desc_wrap {
@@ -56,7 +61,7 @@
 }
 
 .about_col2 {
-    justify-self: end;
+    justify-self: center;
     
     @include a.md {
         justify-self: end;
