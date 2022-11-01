@@ -15,6 +15,11 @@ const data = [
         title: "Design Resources",
         links: [
             {
+                name: "Icons",
+                url: "https://icons8.com/",
+                internal: false
+            },
+            {
                 name: "Google Fonts",
                 url: "https://fonts.google.com/",
                 internal: false
