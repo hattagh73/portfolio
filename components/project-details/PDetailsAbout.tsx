@@ -17,9 +17,14 @@ const PDetailsAbout = ({p_pro_details}:iPropProjectDetails) => {
                 <div className={s.about_col1}>
                     <h2 className={s.about_title}>About Project</h2>
                     <ul className={s.desc_wrap}>
-                        {   p_pro_details && p_pro_details.p_about?.map((i, index)=>
-                            <li className={s.desc_item} key={index}>{i}</li>
-                        )}
+                        {   p_pro_details && p_pro_details.p_about ? (
+                                p_pro_details.p_about.map((i, index)=>
+                                    <li className={s.desc_item} key={index}>{i}</li>
+                                )
+                            ) : (
+                                <p>Will be added soon</p>
+                            )
+                        }
                     </ul>
                 </div>
 
@@ -30,6 +35,7 @@ const PDetailsAbout = ({p_pro_details}:iPropProjectDetails) => {
                             src={`https://res.cloudinary.com/dltslq5fh/image/upload/v1667065567/3d/luzn2x8oamxvie6s0b8j.png`}
                             layout='fill'
                             objectFit='contain'
+                            priority
                         />
                     </div>
                 </div>
