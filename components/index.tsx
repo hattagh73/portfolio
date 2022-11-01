@@ -6,6 +6,7 @@ export { default as HomeProject } from './home/HomeProject';
 //* Import Project Details Page Components
 export { default as PDetailsHero } from './project-details/PDetailsHero';
 export { default as PDetailsAbout } from './project-details/PDetailsAbout';
+export { default as PDetailsStack } from './project-details/PDetailsStack';
 
 //* Import Layouts Components
 export { default as Header } from './Header';
