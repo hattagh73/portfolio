@@ -10,6 +10,7 @@ export interface iProjects {
     p_id: number,
     p_name: string,
     p_category: string,
-    p_about?: string[]
+    p_about?: string[],
+    p_stack?: string[]
 }
 
