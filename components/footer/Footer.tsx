@@ -88,7 +88,7 @@ const Footer = () => {
                         alt="3D Illustration Man Standing"
                         layout="fill"
                         objectFit="contain"
-                        priority
+                        priority={true}
                     />
                 </div>
 
@@ -98,7 +98,7 @@ const Footer = () => {
                         alt="3D Illustration Cat Chilling"
                         layout="fill"
                         objectFit="contain"
-                        priority
+                        priority={true}
                     />
                 </div>
 
