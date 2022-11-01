@@ -1,12 +1,17 @@
 [
     {
         "p_id": 1,
-        "p_name": "Complaint System For University Hostel",
+        "p_name": "Complaint System",
         "p_category": "Final Year Project",
         "p_about":[
             "A Two-way communication system between student and admin",
             "Aid students in submitting complaint form via online",
             "Aid admin to receive, monitor and update complaints"
+        ],
+        "p_stack": [
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237666/icons/zltkhgyi6ihybf9s6bwb.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237603/icons/qsmm4mkhrkip8vorg8ns.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237752/icons/rhijtavkzgxkrgd2jzky.svg"
         ]
     },
     {
@@ -24,7 +29,7 @@
         "p_name": "AOneSchools System",
         "p_category": "Internship",
         "p_about":[
-            "Explored and managed AOneSchools System which wll be implemented on the company",
+            "Explored and managed AOneSchools System which will be implemented on the company",
             "Taught employees on using the attendance, registration, fee system and etc"
         ]
     },
@@ -35,6 +40,13 @@
         "p_about":[
             "To display basic of personal informations",
             "To display several projects"
+        ],
+        "p_stack": [
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237602/icons/stb3wn5tabkjb8xduqpt.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237602/icons/hzztmpdh8ymsygnn8ogf.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237602/icons/kxuhzeznvi0di61alkaw.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237384/icons/ibdziqncbnwjle0l1axc.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667293231/icons/xkgcutbelbcuml2zxywh.svg"
         ]
     },
     {
@@ -45,6 +57,13 @@
             "Collected basic requirements from client",
             "To design a landing page in Figma",
             "To create a landing page which related to food products"
+        ],
+        "p_stack": [
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237602/icons/stb3wn5tabkjb8xduqpt.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237602/icons/hzztmpdh8ymsygnn8ogf.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667293404/icons/orpntxd7eq5zs5oj6ei8.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667237384/icons/ibdziqncbnwjle0l1axc.svg",
+            "https://res.cloudinary.com/dltslq5fh/image/upload/v1667293231/icons/xkgcutbelbcuml2zxywh.svg"
         ]
     }
 ]
