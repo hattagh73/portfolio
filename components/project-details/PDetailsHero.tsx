@@ -16,6 +16,7 @@ const PDetailsHero = ({p_pro_details}:iPropProjectDetails) => {
             <Image 
                 className={s.img_hero}
                 src={`https://res.cloudinary.com/dltslq5fh/image/upload/v1666973644/bg-hero/eyqldh9n0zcdv0jajkpc.svg`}
+                alt={`Image Hero Background`}
                 layout='fill'
                 objectFit='cover'
                 priority
