@@ -35,7 +35,7 @@ const HomeHero = () => {
                             </li>
                             <li>
                                 <a 
-                                    href={`https://dribbble.com/hattalimited`}
+                                    href={`https://www.figma.com/@hattalimited`}
                                     target="_blank"
                                     rel="noreferrer"
                                 >
