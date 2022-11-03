@@ -33,6 +33,7 @@ const PDetailsAbout = ({p_pro_details}:iPropProjectDetails) => {
                         <Image 
                             className={s.img_about}
                             src={`https://res.cloudinary.com/dltslq5fh/image/upload/v1667065567/3d/luzn2x8oamxvie6s0b8j.png`}
+                            alt={`3D Image Meeting`}
                             layout='fill'
                             objectFit='contain'
                             priority
