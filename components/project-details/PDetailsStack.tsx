@@ -20,6 +20,7 @@ const PDetailsStack = ({p_pro_details}:iPropProjectDetails) => {
                     <Image 
                         className={s.img_about}
                         src={`https://res.cloudinary.com/dltslq5fh/image/upload/v1667236904/3d/cm5tquavwsvebrqowews.png`}
+                        alt={`3D Image Man And Desktop`}
                         layout='fill'
                         objectFit='contain'
                         priority
@@ -32,6 +33,7 @@ const PDetailsStack = ({p_pro_details}:iPropProjectDetails) => {
                                 <li key={index}>
                                     <Image 
                                         className={s.img_about}
+                                        alt={`Technology Icons`}
                                         src={item}
                                         width={34}
                                         height={34}
