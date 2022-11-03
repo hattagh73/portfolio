@@ -30,7 +30,7 @@ export const getServerSideProps: GetServerSideProps = async (context) => {
     const pID = context.query.p_id as string;
     
     // const res = await fetch(`http://localhost:3000/data.json`);
-    const res = await fetch(`https://projects-blue.vercel.app/data.json`);
+    const res = await fetch(`https://vercel.com/data.json`);
     const project:iProjects[] = await res.json();
     
     const result = project.find(r => r.p_id === Number.parseInt(pID))
