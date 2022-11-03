@@ -9,8 +9,7 @@ import { iProjects } from '../../types';
 //* Import Project Details Components *//
 import { PDetailsHero, PDetailsAbout, PDetailsStack } from '../../components';
 
-const Project: NextPage<{ project: iProjects }> = ({project}) => {
-    
+const ProjectDetail: NextPage<{ project: iProjects }> = ({project}) => {
     return (
         <>
             <Head>
@@ -24,20 +23,21 @@ const Project: NextPage<{ project: iProjects }> = ({project}) => {
         </>
     )
 }
-export default Project;
+export default ProjectDetail;
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
 
-    const pID  = Number.parseInt(context.query.p_id);
-    const response = await fetch(`http://localhost:3000/data.json`);
-    const results:iProjects[] = await response.json();
+    const pID = context.query.p_id as string;
     
-    const result = results.find(r => r.p_id === pID);
-
+    const res = await fetch(`http://localhost:3000/data.json`);
+    const project:iProjects[] = await res.json();
+    
+    const result = project.find(r => r.p_id === Number.parseInt(pID))
+    
     return {
         props: {
             project: result
         }
     }
-
+    
 }
