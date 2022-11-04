@@ -53,21 +53,23 @@ const HomeProject = ({ p_projects }:iPropProjects) => {
                         
                         <SwiperSlide key={p.p_id} className={s.slide}>
                             <Link href={`/project/${p.p_id}`}>
-                                <div className={s.card}>
-                                    
-                                    <div className={s.card_title}>
-                                        <h3>{p.p_name}</h3>
+                                <a>
+                                    <div className={s.card}>
+                                        
+                                        <div className={s.card_title}>
+                                            <h3>{p.p_name}</h3>
 
-                                        {/* Circle Shape */}
-                                        <div 
-                                            className={`${s.circle} ${ index % 2 === 0 ? `${s.c_tl}` : `${s.c_br}` }`}
-                                        >
+                                            {/* Circle Shape */}
+                                            <div 
+                                                className={`${s.circle} ${ index % 2 === 0 ? `${s.c_tl}` : `${s.c_br}` }`}
+                                            >
+                                            </div>
                                         </div>
-                                    </div>
 
-                                    <p>{p.p_category}</p>
-                                    
-                                </div>
+                                        <p>{p.p_category}</p>
+                                        
+                                    </div>
+                                </a>
                             </Link>
                         </SwiperSlide>
                         
