@@ -32,7 +32,8 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
 
-    const response = await fetch(`http://localhost:3000/data.json`);
+    // const response = await fetch(`http://localhost:3000/data.json`);
+    const response = await fetch(`https://projects-blue.vercel.app/data.json`);
     const results:iProjects[] = await response.json();
     
     return {
