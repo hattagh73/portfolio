@@ -1,7 +1,34 @@
-// //* Import Fonts Family
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+//* Import Fonts Family
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../public/Poppins-Thin.ttf');
+    font-weight: 100;
+}
 
-// //* Declare Fonts Family
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../public/Poppins-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../public/Poppins-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('../../public/Poppins-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Lobster';
+    src: url('../../public/Lobster-Regular.ttf');
+}
+
+
+//* Declare Fonts Family
 $ff-lobster: 'Lobster', cursive;
 $ff-poppins: 'Poppins', sans-serif;
