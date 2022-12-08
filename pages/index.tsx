@@ -32,9 +32,12 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
 
-    // const response = await fetch(`http://localhost:3000/data.json`);
-    const response = await fetch(`https://hatta.vercel.app/data.json`);
+    const url = "http://localhost:3004" || "http://localhost:3005";
+
+    const response = await fetch(`${url}/data.json`);
     const results:iProjects[] = await response.json();
+
+    console.log(url)
     
     return {
         props: {
