@@ -13,9 +13,9 @@ type ChildrenProps = {
 };
 
 const LandingPageLayout = ({ children }:ChildrenProps) => {
-    useEffect(() => {
-        console.log("Layout Mounter");
-    }, [])
+    // useEffect(() => {
+    //     console.log("Layout Mounter");
+    // }, [])
     return(
         <>
             <Header />
