@@ -11,9 +11,9 @@ import '../styles/global.scss';
 
 function MyApp({ Component, pageProps}: AppProps) {
 
-    useEffect(() => {
-        console.log("App Mounter");
-    }, [])
+    // useEffect(() => {
+    //     console.log("App Mounter");
+    // }, [])
 
     return (
         <>
