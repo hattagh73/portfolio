@@ -1,3 +1,6 @@
+//* Import Local Project Data
+import { project_api } from '../config';
+
 //* Import NextJS TS & Features *//
 import type { NextPage } from 'next';
 import { GetServerSideProps } from 'next'
@@ -32,12 +35,8 @@ export default Home;
 
 export const getServerSideProps: GetServerSideProps = async () => {
 
-    const url = "https://hatta2.vercel.app" || "http://localhost:3005";
-
-    const response = await fetch(`${url}/data.json`);
+    const response = await fetch(`${project_api}/data.json`);
     const results:iProjects[] = await response.json();
-
-    console.log(url)
     
     return {
         props: {
